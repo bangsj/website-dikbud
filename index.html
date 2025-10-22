@@ -1,2 +1,312 @@
-﻿<!doctype html><meta charset='utf-8'><title>website-dikbud</title>
-<h1>It works ✅</h1><p>GitHub Pages membaca index.html dari root.</p>
+﻿<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dinas Pendidikan Kabupaten Mamuju Tengah</title>
+  <meta name="description" content="Portal resmi Dinas Pendidikan Kabupaten Mamuju Tengah: layanan pendidikan, informasi PPDB, berita, pengumuman, agenda, dan aplikasi layanan publik." />
+  <link rel="icon" href="/favicon.png">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    :root{--brand:#0f5fff;--ink:#1b1f23}
+    body{color:#222}
+    .navbar{box-shadow:0 2px 12px rgba(0,0,0,.06)}
+    .hero{background:radial-gradient(1200px 600px at 10% 10%, rgba(15,95,255,.08), transparent),linear-gradient(180deg, #f8fbff 0%, #fff 60%);padding:72px 0 32px}
+    .section-title{font-weight:800;letter-spacing:.2px}
+    .card-hover{transition:.2s}
+    .card-hover:hover{transform:translateY(-3px);box-shadow:0 1rem 2rem rgba(0,0,0,.08)}
+    .stat .num{font-size:2rem;font-weight:800;color:var(--brand)}
+    .link-soft{color:#0f5fff;text-decoration:none}
+    .link-soft:hover{text-decoration:underline}
+    .brand-gradient{background:linear-gradient(90deg,var(--brand),#2bc0ff);-webkit-background-clip:text;background-clip:text;color:transparent}
+    .badge-simpatik{background:#eaf3ff;border:1px solid #cfe3ff;color:#0b57d0}
+    .object-cover{object-fit:cover}
+    .footer{background:#0e2238;color:#d6e3f3}
+    .footer a{color:#d6e3f3}
+  </style>
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"GovernmentOrganization","name":"Dinas Pendidikan Kabupaten Mamuju Tengah","url":"https://bangsj.github.io/website-dikbud/","logo":"https://commons.wikimedia.org/wiki/File:Lambang_Kabupaten_Mamuju_Tengah.png","address":{"@type":"PostalAddress","streetAddress":"Kompleks Perkantoran Pemkab Mamuju Tengah, Topoyo","addressLocality":"Topoyo","addressRegion":"Sulawesi Barat","postalCode":"91561","addressCountry":"ID"},"contactPoint":[{"@type":"ContactPoint","telephone":"+62-812-0000-0000","contactType":"customer service","areaServed":"ID"}]}
+  </script>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="navbar navbar-expand-lg bg-white sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Coat_of_arms_of_Mamuju_Tengah_Regency.svg" height="42" alt="Lambang Mamuju Tengah" class="me-2">
+      <span class="brand-gradient">Dinas Pendidikan Kab. Mamuju Tengah</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMain">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="#layanan">Layanan</a></li>
+        <li class="nav-item"><a class="nav-link" href="#aplikasi">Aplikasi</a></li>
+        <li class="nav-item"><a class="nav-link" href="#berita">Berita</a></li>
+        <li class="nav-item"><a class="nav-link" href="#pengumuman">Pengumuman</a></li>
+        <li class="nav-item"><a class="nav-link" href="#agenda">Agenda</a></li>
+        <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+        <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+      </ul>
+      <div class="ms-lg-3 d-flex gap-2">
+        <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalCari"><i class="bi bi-search"></i> Cari</button>
+        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalAduan"><i class="bi bi-megaphone"></i> Aduan</button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="container">
+    <div class="row align-items-center g-4">
+      <div class="col-lg-7">
+        <span class="badge badge-simpatik rounded-pill">#SenyumSapaSalam • #Informatif • #Melayani • #Profesional • #Akuntabel • #Transparan • #Ikhlas • #Kooperatif</span>
+        <h1 class="display-5 fw-bold mt-3">Portal Layanan Pendidikan <span class="brand-gradient">Kabupaten Mamuju Tengah</span></h1>
+        <p class="lead text-secondary">Akses layanan pendidikan, informasi PPDB, program peningkatan kompetensi pendidik, dan kanal pengaduan—dalam satu pintu.</p>
+        <div class="d-flex gap-2 flex-wrap">
+          <a href="#layanan" class="btn btn-primary"><i class="bi bi-grid"></i> Lihat Layanan</a>
+          <a href="#aplikasi" class="btn btn-outline-secondary"><i class="bi bi-link-45deg"></i> Aplikasi & Tautan</a>
+          <a href="#faq" class="btn btn-outline-secondary"><i class="bi bi-question-circle"></i> FAQ</a>
+        </div>
+      </div>
+      <div class="col-lg-5 text-center">
+        <img class="img-fluid object-cover rounded-3 shadow-sm" src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?q=80&w=1200&auto=format&fit=crop" alt="Ilustrasi pendidikan">
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- LAYANAN -->
+<section id="layanan" class="py-5">
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-end mb-3">
+      <h2 class="section-title">Layanan Utama</h2>
+      <a class="link-soft" href="#">Lihat semua layanan</a>
+    </div>
+    <div class="row g-3">
+      <div class="col-6 col-md-3"><a class="text-decoration-none" href="#"><div class="card card-hover h-100 text-center p-3"><i class="bi bi-person-badge"></i><h6 class="mt-2">Kepegawaian</h6><small class="text-secondary">Data GTK, izin belajar, KP, mutasi.</small></div></a></div>
+      <div class="col-6 col-md-3"><a class="text-decoration-none" href="#"><div class="card card-hover h-100 text-center p-3"><i class="bi bi-cash-coin"></i><h6 class="mt-2">Bansos Pendidikan</h6><small class="text-secondary">Informasi & pelacakan bantuan.</small></div></a></div>
+      <div class="col-6 col-md-3"><a class="text-decoration-none" href="#"><div class="card card-hover h-100 text-center p-3"><i class="bi bi-mortarboard"></i><h6 class="mt-2">PPDB Online</h6><small class="text-secondary">Pendaftaran SD/SMP.</small></div></a></div>
+      <div class="col-6 col-md-3"><a class="text-decoration-none" href="#"><div class="card card-hover h-100 text-center p-3"><i class="bi bi-file-earmark-text"></i><h6 class="mt-2">Legalisir Ijazah</h6><small class="text-secondary">Legalisir & verifikasi dokumen.</small></div></a></div>
+      <div class="col-6 col-md-3"><a class="text-decoration-none" href="#"><div class="card card-hover h-100 text-center p-3"><i class="bi bi-arrow-left-right"></i><h6 class="mt-2">Mutasi Siswa</h6><small class="text-secondary">Pindah masuk/keluar.</small></div></a></div>
+      <div class="col-6 col-md-3"><a class="text-decoration-none" href="#"><div class="card card-hover h-100 text-center p-3"><i class="bi bi-card-checklist"></i><h6 class="mt-2">NUPTK</h6><small class="text-secondary">Pengajuan & pembaruan.</small></div></a></div>
+      <div class="col-6 col-md-3"><a class="text-decoration-none" href="#"><div class="card card-hover h-100 text-center p-3"><i class="bi bi-bar-chart"></i><h6 class="mt-2">Studi Kelayakan</h6><small class="text-secondary">Kajian kebutuhan sarpras.</small></div></a></div>
+      <div class="col-6 col-md-3"><a class="text-decoration-none" href="#"><div class="card card-hover h-100 text-center p-3"><i class="bi bi-translate"></i><h6 class="mt-2">Program Bahasa</h6><small class="text-secondary">Literasi & numerasi digital.</small></div></a></div>
+    </div>
+  </div>
+</section>
+
+<!-- APLIKASI & TAUTAN -->
+<section id="aplikasi" class="py-5 bg-light">
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-end mb-3">
+      <h2 class="section-title">Aplikasi & Link Tautan</h2>
+      <a class="link-soft" href="#">Lihat semua aplikasi</a>
+    </div>
+    <div class="row g-3">
+      <div class="col-md-4"><div class="card card-hover h-100 p-3"><div class="d-flex align-items-center gap-3"><i class="bi bi-browser-chrome fs-2 text-success"></i><div><h6 class="mb-1">PPDB Online</h6><small class="text-secondary">Alur terpandu pendaftaran SD/SMP.</small></div></div><div class="mt-3"><a class="btn btn-outline-success btn-sm" href="#">Buka</a></div></div></div>
+      <div class="col-md-4"><div class="card card-hover h-100 p-3"><div class="d-flex align-items-center gap-3"><i class="bi bi-cash-coin fs-2 text-primary"></i><div><h6 class="mb-1">Bansos Mahasiswa</h6><small class="text-secondary">Informasi & pelacakan bantuan.</small></div></div><div class="mt-3"><a class="btn btn-outline-primary btn-sm" href="#">Buka</a></div></div></div>
+      <div class="col-md-4"><div class="card card-hover h-100 p-3"><div class="d-flex align-items-center gap-3"><i class="bi bi-collection-play fs-2 text-danger"></i><div><h6 class="mb-1">Pusat Konten Digital</h6><small class="text-secondary">Materi ajar & microlearning guru.</small></div></div><div class="mt-3"><a class="btn btn-outline-danger btn-sm" href="#">Kunjungi</a></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- BERITA -->
+<section id="berita" class="py-5">
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-end mb-3">
+      <h2 class="section-title">Berita Terbaru</h2>
+      <a class="link-soft" href="#">Lihat semua berita</a>
+    </div>
+    <div class="row g-3">
+      <div class="col-md-4"><article class="card card-hover h-100"><img class="object-cover" height="180" src="https://images.unsplash.com/photo-1588072432836-e10032774350?q=80&w=1200&auto=format&fit=crop" alt=""><div class="card-body"><h6 class="fw-bold">Bimtek Pemanfaatan Konten Digital</h6><small class="text-secondary">16-10-2025 • Berita</small><p class="mt-2 small text-secondary">Bimbingan teknis konten digital untuk pembelajaran interaktif.</p><a href="#" class="link-soft small">Baca Selengkapnya</a></div></article></div>
+      <div class="col-md-4"><article class="card card-hover h-100"><img class="object-cover" height="180" src="https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?q=80&w=1200&auto=format&fit=crop" alt=""><div class="card-body"><h6 class="fw-bold">Sosialisasi PPDB 2026/2027</h6><small class="text-secondary">05-10-2025 • Berita</small><p class="mt-2 small text-secondary">Tahapan PPDB di Topoyo dan kecamatan lain.</p><a href="#" class="link-soft small">Baca Selengkapnya</a></div></article></div>
+      <div class="col-md-4"><article class="card card-hover h-100"><img class="object-cover" height="180" src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=1200&auto=format&fit=crop" alt=""><div class="card-body"><h6 class="fw-bold">Penguatan Literasi & Numerasi</h6><small class="text-secondary">28-09-2025 • Berita</small><p class="mt-2 small text-secondary">Kolaborasi sekolah, komite, dan komunitas belajar.</p><a href="#" class="link-soft small">Baca Selengkapnya</a></div></article></div>
+    </div>
+  </div>
+</section>
+
+<!-- PENGUMUMAN -->
+<section id="pengumuman" class="py-5 bg-light">
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-end mb-3">
+      <h2 class="section-title">Pengumuman</h2>
+      <a class="link-soft" href="#">Arsip pengumuman</a>
+    </div>
+    <ul class="list-group shadow-sm">
+      <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><div class="fw-bold">Jadwal & Alur PPDB Daring SD/SMP</div>Unduh panduan resmi PPDB Kab. Mamuju Tengah.</div><a class="btn btn-outline-primary btn-sm" href="#">Unduh</a></li>
+      <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><div class="fw-bold">Seleksi Beasiswa Bansos Pendidikan</div>Informasi berkas, kriteria, dan tata cara pengajuan.</div><a class="btn btn-outline-primary btn-sm" href="#">Selengkapnya</a></li>
+      <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><div class="fw-bold">Rekrutmen Tenaga Administrasi Sekolah</div>Formasi & lokasi penempatan.</div><a class="btn btn-outline-primary btn-sm" href="#">Baca</a></li>
+    </ul>
+  </div>
+</section>
+
+<!-- AGENDA -->
+<section id="agenda" class="py-5">
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-end mb-3">
+      <h2 class="section-title">Agenda Kegiatan</h2>
+      <a class="link-soft" href="#">Lihat semua agenda</a>
+    </div>
+    <div class="row g-3">
+      <div class="col-md-4"><div class="card h-100 card-hover"><div class="card-body"><div class="d-flex justify-content-between"><span class="badge text-bg-primary">Pelatihan</span><small class="text-secondary">Topoyo • 22 Okt 2025</small></div><h6 class="fw-bold mt-2">Workshop Kurikulum & Asesmen</h6><p class="small text-secondary">Peningkatan kompetensi guru SD/SMP.</p></div></div></div>
+      <div class="col-md-4"><div class="card h-100 card-hover"><div class="card-body"><div class="d-flex justify-content-between"><span class="badge text-bg-success">Rapat</span><small class="text-secondary">Budong-Budong • 30 Okt 2025</small></div><h6 class="fw-bold mt-2">Koordinasi PPDB 2026/2027</h6><p class="small text-secondary">Sinkronisasi Dapodik, zonasi, daya tampung.</p></div></div></div>
+      <div class="col-md-4"><div class="card h-100 card-hover"><div class="card-body"><div class="d-flex justify-content-between"><span class="badge text-bg-warning">Sosialisasi</span><small class="text-secondary">Karossa • 5 Nov 2025</small></div><h6 class="fw-bold mt-2">Gerakan Literasi Sekolah</h6><p class="small text-secondary">Penguatan budaya baca dan numerasi.</p></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- STAT -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <div class="row text-center g-3">
+      <div class="col-6 col-md-3 stat"><div class="num">8</div><small>Kecamatan</small></div>
+      <div class="col-6 col-md-3 stat"><div class="num">120+</div><small>SD/SMP</small></div>
+      <div class="col-6 col-md-3 stat"><div class="num">3.5K+</div><small>Guru & Tendik</small></div>
+      <div class="col-6 col-md-3 stat"><div class="num">32K+</div><small>Peserta Didik</small></div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="py-5">
+  <div class="container">
+    <h2 class="section-title mb-3">FAQ</h2>
+    <div class="accordion" id="faqAcc">
+      <div class="accordion-item">
+        <h2 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#f1">Apa saja layanan di Dinas Pendidikan Kab. Mamuju Tengah?</button></h2>
+        <div id="f1" class="accordion-collapse collapse show" data-bs-parent="#faqAcc"><div class="accordion-body">Saat ini tersedia: Kepegawaian, Bansos Pendidikan, Izin Belajar, Legalisir Ijazah, Mutasi Siswa, NUPTK, Studi Kelayakan, PPDB Online, dan kanal Aduan. <a href="#layanan" class="link-soft">Lihat layanan</a>.</div></div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f2">Di mana alamat kantor dan jam layanan?</button></h2>
+        <div id="f2" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body"><strong>Alamat:</strong> Kompleks Perkantoran Pemkab Mamuju Tengah, Topoyo. <br><strong>Jam Layanan:</strong> Sen–Kam 07.30–15.30 WITA, Jum 07.00–14.30 WITA.</div></div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f3">Kontak resmi?</button></h2>
+        <div id="f3" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">Telepon: (0428) 000000 • WhatsApp: <a href="https://wa.me/62812XXXXXXX" target="_blank">0812-XXXX-XXXX</a> • Email: <a href="mailto:disdik@mamujutengahkab.go.id">disdik@mamujutengahkab.go.id</a>.</div></div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f4">Wadah aduan masyarakat?</button></h2>
+        <div id="f4" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">Aduan via tombol <strong>Aduan</strong> (kanan atas) atau melalui <a href="#" class="link-soft">SP4N Lapor</a>.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- KONTAK -->
+<section id="kontak" class="py-5 bg-light">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-6">
+        <h2 class="section-title mb-3">Kontak Kami</h2>
+        <ul class="list-unstyled">
+          <li class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>Kompleks Perkantoran Pemkab Mamuju Tengah, Topoyo, Sulbar 91561</li>
+          <li class="mb-2"><i class="bi bi-telephone text-primary me-2"></i>Telepon: (0428) 000000</li>
+          <li class="mb-2"><i class="bi bi-whatsapp text-success me-2"></i>WhatsApp: <a href="https://wa.me/62812XXXXXXX" class="link-soft">0812-XXXX-XXXX</a></li>
+          <li class="mb-2"><i class="bi bi-envelope text-primary me-2"></i>Email: <a href="mailto:disdik@mamujutengahkab.go.id" class="link-soft">disdik@mamujutengahkab.go.id</a></li>
+        </ul>
+        <div class="d-flex gap-2">
+          <a class="btn btn-outline-primary btn-sm" href="#faq"><i class="bi bi-question-circle"></i> FAQ</a>
+          <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#modalAduan"><i class="bi bi-megaphone"></i> Kirim Aduan</button>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="ratio ratio-16x9 shadow-sm rounded">
+          <iframe src="https://maps.google.com/maps?q=Topoyo%2C%20Mamuju%20Tengah&t=&z=14&ie=UTF8&iwloc=&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer py-4">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-6">
+        <h6 class="fw-bold">Dinas Pendidikan Kabupaten Mamuju Tengah</h6>
+        <p class="small mb-1">Portal layanan resmi pendidikan di Kabupaten Mamuju Tengah.</p>
+        <div class="small">© <span id="y"></span> Dinas Pendidikan Kab. Mamuju Tengah. All Rights Reserved.</div>
+      </div>
+      <div class="col-md-3">
+        <h6 class="fw-bold">Link Tautan</h6>
+        <ul class="list-unstyled small">
+          <li><a href="#berita">Berita</a></li>
+          <li><a href="#pengumuman">Pengumuman</a></li>
+          <li><a href="#aplikasi">Aplikasi & Link</a></li>
+          <li><a href="#layanan">Layanan</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h6 class="fw-bold">Kantor</h6>
+        <ul class="list-unstyled small">
+          <li>Topoyo, Mamuju Tengah 91561</li>
+          <li>Telepon: (0428) 000000</li>
+          <li>Email: disdik@mamujutengahkab.go.id</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- MODAL: CARI -->
+<div class="modal fade" id="modalCari" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <form>
+        <div class="modal-header">
+          <h5 class="modal-title"><i class="bi bi-search"></i> Pencarian</h5>
+          <button class="btn-close" data-bs-dismiss="modal" type="button"></button>
+        </div>
+        <div class="modal-body">
+          <input class="form-control form-control-lg" placeholder="Ketik kata kunci…">
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">Tutup</button>
+          <button class="btn btn-primary" type="submit">Cari</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL: ADUAN -->
+<div class="modal fade" id="modalAduan" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <form>
+        <div class="modal-header">
+          <h5 class="modal-title"><i class="bi bi-megaphone"></i> Kirim Aduan</h5>
+          <button class="btn-close" data-bs-dismiss="modal" type="button"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row g-3">
+            <div class="col-md-6"><label class="form-label">Nama</label><input class="form-control" required></div>
+            <div class="col-md-6"><label class="form-label">Kontak (Email/HP)</label><input class="form-control" required></div>
+            <div class="col-12"><label class="form-label">Jenis Layanan</label><select class="form-select"><option>PPDB</option><option>Bansos Pendidikan</option><option>Mutasi Siswa</option><option>Legalisir Ijazah</option><option>Lainnya</option></select></div>
+            <div class="col-12"><label class="form-label">Uraian Aduan</label><textarea class="form-control" rows="4" required></textarea></div>
+            <div class="col-12"><label class="form-label">Lampiran (opsional)</label><input type="file" class="form-control"></div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">Batal</button>
+          <button class="btn btn-primary" type="submit">Kirim</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.getElementById('y').textContent = new Date().getFullYear();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
